@@ -1,0 +1,13 @@
+﻿  Lab__4.cpp
+C:\Users\molot\source\repos\Lab__4\Lab__4\Lab__4.cpp(221,17): error C2672: "sortProducts": не найдена соответствующая перегруженная функция
+C:\Users\molot\source\repos\Lab__4\Lab__4\Lab__4.cpp(112,6): message : может быть "void sortProducts(std::vector<T,std::allocator<_Ty>> &,bool (__cdecl *)(const T &,const T &))"
+C:\Users\molot\source\repos\Lab__4\Lab__4\Lab__4.cpp(221,17): message : "void sortProducts(std::vector<T,std::allocator<_Ty>> &,bool (__cdecl *)(const T &,const T &))": в шаблон параметр "T" неоднозначен
+C:\Users\molot\source\repos\Lab__4\Lab__4\Lab__4.cpp(221,17): message : может быть "Product"
+C:\Users\molot\source\repos\Lab__4\Lab__4\Lab__4.cpp(221,17): message : или       "std::unique_ptr<Product,std::default_delete<Product>>"
+C:\Users\molot\source\repos\Lab__4\Lab__4\Lab__4.cpp(221,17): message : 'void sortProducts(std::vector<T,std::allocator<_Ty>> &,bool (__cdecl *)(const T &,const T &))': не удалось вывести аргумент шаблон для 'bool (__cdecl *)(const T &,const T &)' из 'bool (const Product &,const Product &)'
+C:\Users\molot\source\repos\Lab__4\Lab__4\Lab__4.cpp(224,17): error C2672: "sortProducts": не найдена соответствующая перегруженная функция
+C:\Users\molot\source\repos\Lab__4\Lab__4\Lab__4.cpp(112,6): message : может быть "void sortProducts(std::vector<T,std::allocator<_Ty>> &,bool (__cdecl *)(const T &,const T &))"
+C:\Users\molot\source\repos\Lab__4\Lab__4\Lab__4.cpp(224,17): message : "void sortProducts(std::vector<T,std::allocator<_Ty>> &,bool (__cdecl *)(const T &,const T &))": в шаблон параметр "T" неоднозначен
+C:\Users\molot\source\repos\Lab__4\Lab__4\Lab__4.cpp(224,17): message : может быть "Product"
+C:\Users\molot\source\repos\Lab__4\Lab__4\Lab__4.cpp(224,17): message : или       "std::unique_ptr<Product,std::default_delete<Product>>"
+C:\Users\molot\source\repos\Lab__4\Lab__4\Lab__4.cpp(224,17): message : 'void sortProducts(std::vector<T,std::allocator<_Ty>> &,bool (__cdecl *)(const T &,const T &))': не удалось вывести аргумент шаблон для 'bool (__cdecl *)(const T &,const T &)' из 'bool (const Product &,const Product &)'
